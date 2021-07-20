@@ -1,0 +1,122 @@
+.banner-inicio4{
+    
+    background-image:url(./imgs/Contacto.jpg);
+    
+     position: relative;
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-position: relative;
+    background-size: cover;
+   
+}
+
+.banner-inicio4:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.conTact1{
+          margin-top: 20px;
+  div{
+       display: flex;
+       flex-direction: row;
+       
+
+           article{
+                          
+                           display: flex;
+                           flex-direction: column;
+                           justify-content: center;
+                           align-items: center;
+                     p{
+                      margin-left: 25px;
+                      margin-bottom: 200px;
+                      font-size: 30px;
+                      color: $colorSecundario;
+                     }
+           }
+
+           section{
+                margin-top: 10px;
+                  article{
+
+
+                       form{
+                           display: flex;
+                           flex-direction: column;
+                           justify-content: center;
+                           align-items: center;
+
+                           textarea{
+
+                            width:300px;
+                            height: 300px;
+                           }
+
+                       }
+                    
+                  }
+
+           }
+          }
+}
+
+@media (max-width:424px){
+
+  .conTact1{
+
+
+    div{
+       display: flex;
+       flex-direction: row;
+       margin-top: 10px;
+       margin-left: -50px;
+
+           article{
+
+                           display: flex;
+                           
+                           flex-direction: column;
+                           justify-content: center;
+                           align-items: center;
+                     p{
+                     
+                      font-size: 15px;
+                      color: $colorSecundario;
+                      
+                     }
+           }
+
+           section{
+                
+                  article{
+
+
+                       form{
+                           display: flex;
+                           flex-direction: column;
+                           justify-content: center;
+                           align-items: center;
+
+                             textarea{
+
+                            width:200px;
+                            height: 200px;
+                           }
+
+                       }
+                    
+                  }
+
+           }
+   }
+  }
+}

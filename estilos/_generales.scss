@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*reseteamos el estilo de la pagina*/
+}
+
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white
+}
+
+
+
+
+/*variables*/
+
+$titulo: 'Roboto', sans-serif;
+$texto: 'roboto', italic;
+
+$tamañoTexto:30px;
+
+
+$colorPrincipal: grey;
+$colorSecundario: orange;
+
+/*condicionales*/
+/* 1 primer valor == 2 valor- es igaul*/
+/* 1 primer valor != 2 valor- es distinto*/
+/* 1 primer valor < 2 valor- es menor*/
+/* 1 primer valor > 2 valor- es mayor*/
+/*@if:(si condicional)*/
+
+
+$colorPunto:Dot;
+
+/*maps*/
+
+$redes:(
+    instagram:RGB(193,53,132),
+    twitter:rgb(29,161,242),
+    facebook:RGB(66,103,178)
+    
+);
+
+@each $red,$color in $redes{
+    .media--#{$red}{
+        color: $color;
+    }
+}
+
+
+

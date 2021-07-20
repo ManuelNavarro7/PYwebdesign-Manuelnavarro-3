@@ -1,0 +1,66 @@
+.banner-inicio2{
+    
+    background-image:url(https://p1.pxfuel.com/preview/932/419/615/people-girls-women-students-friends-man.jpg);
+    
+    position: relative;
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-position: relative;
+    background-size: cover;
+
+}
+
+.banner-inicio2:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+.arTicle1A {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               
+              h2{
+                  margin-top: 15px;
+                  color:$colorSecundario;
+                  font-size: 40px;
+              }
+
+              section{
+                  display: flex;
+                  margin-left: -10px;
+
+                  
+
+                i{
+                    margin-top: 30px;
+                    margin-right: 20px;
+                    color: $colorSecundario;
+                    font-size:30px ;
+                    
+                }
+                
+                  
+              }
+
+              h3{
+                  color:$colorPrincipal;
+                  font-size: 30px;
+              }
+
+              section{
+                  margin-top: 20px;
+              }
+}
