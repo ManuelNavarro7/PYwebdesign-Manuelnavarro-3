@@ -73,6 +73,52 @@
   font-size: 20px;
 }
 
+@media (max-width: 424px) {
+  .nav1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 10px;
+  }
+  .nav1 ul {
+    list-style: none;
+  }
+  .nav1 ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav1 ul li h2 {
+    color: orange;
+    font-size: 30px;
+  }
+  .nav1 ul li p {
+    color: grey;
+    font-size: 20px;
+  }
+}
+
 .banner-inicio3 {
   background-image: url(../imgs/Gestion-proyecto1.jpg);
   position: relative;
@@ -1069,7 +1115,8 @@
             align-items: center;
   }
   .conTact1 div article p {
-    font-size: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
     color: orange;
   }
   .conTact1 div section article form {

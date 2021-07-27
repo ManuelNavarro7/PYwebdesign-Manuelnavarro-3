@@ -30,6 +30,43 @@
         }
 
 
+@media (max-width:424px){
+
+           .nav1{
+       display: flex;
+       flex-direction: column;
+       margin-top: 40px;
+       justify-content: center;
+       align-items: center;
+       margin-right: 10px;
+       
+            ul{
+                
+                list-style: none;
+                                
+                li{  
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                   
+                   h2{
+                       
+                       color:$colorSecundario;
+                       font-size: 30px;
+                   }
+                   p{
+                       color:$colorPrincipal;
+                       font-size:20px ;
+                   }
+
+                }
+            }
+        }
+
+}
+
+
 .banner-inicio3{
     
      background-image:url(../imgs/Gestion-proyecto1.jpg);
@@ -54,6 +91,8 @@
   left: 0;
   right: 0;
 }
+
+
 
     
 
