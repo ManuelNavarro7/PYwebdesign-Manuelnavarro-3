@@ -6,7 +6,7 @@
   /*reseteamos el estilo de la pagina*/
 }
 
-body {
+.body {
   width: 100%;
   height: 100vh;
   background-color: white;
@@ -74,7 +74,7 @@ body {
 }
 
 .banner-inicio3 {
-  background-image: url(./imgs/Gestion-proyecto1.jpg);
+  background-image: url(../imgs/Gestion-proyecto1.jpg);
   position: relative;
   width: 100%;
   height: 100vh;
@@ -103,14 +103,23 @@ body {
   font-size: 35px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: white;
   font-family: sans-serif;
   position: relative;
+  text-decoration: none;
   /*condicionales*/
+}
+
+.artiCleA:hover {
+  color: orange;
 }
 
 .artiCleA .span1 {
   color: orange;
+}
+
+.artiCleA .span1:hover {
+  color: grey;
 }
 
 .secTionB {
@@ -180,7 +189,7 @@ body {
 }
 
 .banner-inicio {
-  background-image: url(./imgs/equipo3.jpg);
+  background-image: url(../imgs/equipo3.jpg);
   position: relative;
   width: 100%;
   height: 100vh;
@@ -255,6 +264,8 @@ body {
 }
 
 .tiTulo1 span {
+  margin-left: 15px;
+  letter-spacing: 15px;
   color: orange;
 }
 
@@ -267,13 +278,16 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .tiTulo1 span {
     color: orange;
@@ -485,14 +499,23 @@ body {
   font-size: 35px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: white;
   font-family: sans-serif;
   position: relative;
+  text-decoration: none;
   /*condicionales*/
+}
+
+.artiCleA:hover {
+  color: orange;
 }
 
 .artiCleA .span1 {
   color: orange;
+}
+
+.artiCleA .span1:hover {
+  color: grey;
 }
 
 .secTionB {
@@ -562,7 +585,7 @@ body {
 }
 
 .banner-inicio {
-  background-image: url(./imgs/equipo3.jpg);
+  background-image: url(../imgs/equipo3.jpg);
   position: relative;
   width: 100%;
   height: 100vh;
@@ -637,6 +660,8 @@ body {
 }
 
 .tiTulo1 span {
+  margin-left: 15px;
+  letter-spacing: 15px;
   color: orange;
 }
 
@@ -649,13 +674,16 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .tiTulo1 span {
     color: orange;
@@ -926,7 +954,7 @@ body {
 }
 
 .banner-inicio4 {
-  background-image: url(./imgs/Contacto.jpg);
+  background-image: url(../imgs/Contacto.jpg);
   position: relative;
   width: 100%;
   height: 100vh;
