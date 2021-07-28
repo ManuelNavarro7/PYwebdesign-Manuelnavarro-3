@@ -1,6 +1,6 @@
 
 
-.nav1{
+.maIn1{
        display: flex;
        flex-direction: column;
        margin-top: 40px;
@@ -32,17 +32,22 @@
 
 @media (max-width:424px){
 
-           .nav1{
-       display: flex;
-       flex-direction: column;
-       margin-top: 40px;
-       justify-content: center;
-       align-items: center;
-       margin-right: 10px;
+    
+        .maIn1{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 40px;
+                   
+                    
+       
        
             ul{
                 
                 list-style: none;
+                
+                justify-content: center;
+                    align-items: center;
+                    margin-right: 12px;
                                 
                 li{  
                     display: flex;

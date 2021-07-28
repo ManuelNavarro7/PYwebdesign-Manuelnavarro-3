@@ -32,7 +32,7 @@
   color: RGB(66, 103, 178);
 }
 
-.nav1 {
+.maIn1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,11 +43,11 @@
   margin-top: 40px;
 }
 
-.nav1 ul {
+.maIn1 ul {
   list-style: none;
 }
 
-.nav1 ul li {
+.maIn1 ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,18 +63,18 @@
           align-items: center;
 }
 
-.nav1 ul li h2 {
+.maIn1 ul li h2 {
   color: orange;
   font-size: 30px;
 }
 
-.nav1 ul li p {
+.maIn1 ul li p {
   color: grey;
   font-size: 20px;
 }
 
 @media (max-width: 424px) {
-  .nav1 {
+  .maIn1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -83,18 +83,18 @@
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 40px;
+  }
+  .maIn1 ul {
+    list-style: none;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-right: 10px;
+    margin-right: 12px;
   }
-  .nav1 ul {
-    list-style: none;
-  }
-  .nav1 ul li {
+  .maIn1 ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -109,11 +109,11 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .nav1 ul li h2 {
+  .maIn1 ul li h2 {
     color: orange;
     font-size: 30px;
   }
-  .nav1 ul li p {
+  .maIn1 ul li p {
     color: grey;
     font-size: 20px;
   }
@@ -948,13 +948,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding-left: 2px;
