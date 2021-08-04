@@ -64,3 +64,50 @@
                   margin-top: 20px;
               }
 }
+
+
+@media (max-width:1024px){
+                      
+                 .arTicle1A {
+
+                    div{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                
+                                h2{
+                                    margin-top: 15px;
+                                    color:$colorSecundario;
+                                    font-size: 40px;
+                                }
+
+                                section{
+                                    display: flex;
+                                    margin-left: -10px;
+
+                                    
+
+                                    i{
+                                        margin-top: 30px;
+                                        margin-right: 20px;
+                                        color: $colorSecundario;
+                                        font-size:30px ;
+                                        
+                                    }
+                
+                  
+              }
+
+              h3{
+                  color:$colorPrincipal;
+                  font-size: 30px;
+              }
+
+              section{
+                  margin-top: 20px;
+              }
+}
+  
+           }
+        }
